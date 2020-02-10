@@ -1,0 +1,70 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.section1{
+    background-color: #9F7FB1;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr,1fr,1fr;
+}
+.section2{
+    background-color: #E791BE;
+    display: grid;
+    height: 100%;
+    grid-template-columns: 1fr,1fr,1fr;
+}
+.section3{
+    background-color: #FFC9D9;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr,1fr,1fr;
+}
+.container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    
+}
+.button_section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-column: 1/1;
+    min-width: 200px;
+}
+.contain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-column: 2/5;
+    flex-direction: column;
+}
+.guide{
+    border: rgb(255, 0, 170) 2px solid;
+}
+.myButton{
+    
+    width: 250px;
+    height: 50px;
+    border-radius: 50px;
+    border: black 1px solid;
+    font-size: 20px;
+    padding: 3px;
+    box-shadow: 0px 3px 4px;
+}
+.setBackground{
+    background-color: #ffffff;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='12' viewBox='0 0 20 12'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='charlie-brown' fill='%239f7fb1' fill-opacity='0.5'%3E%3Cpath d='M9.8 12L0 2.2V.8l10 10 10-10v1.4L10.2 12h-.4zm-4 0L0 6.2V4.8L7.2 12H5.8zm8.4 0L20 6.2V4.8L12.8 12h1.4zM9.8 0l.2.2.2-.2h-.4zm-4 0L10 4.2 14.2 0h-1.4L10 2.8 7.2 0H5.8z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+.red{
+    color: crimson;
+    font-size: 20px;
+}
+.myButton:hover{
+    box-shadow: 0px 3px 4px rgb(10, 21, 173);
+}
+.img{
+    width: 50%;
+    margin : 20px;
+}
